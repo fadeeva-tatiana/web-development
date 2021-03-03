@@ -1,7 +1,7 @@
 PROGRAM PrintHello(INPUT, OUTPUT);
 USES dos;
 BEGIN {PrintHello}
-  WRITELN('Content-Type: text/plain');      
+  WRITELN('Content-Type: text/plain');
   WRITELN;
   WRITELN(GetEnv('REQUEST_METHOD'));
   WRITELN(GetEnv('QUERY_STRING'));
